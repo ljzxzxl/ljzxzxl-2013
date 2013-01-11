@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+	衣品网商品图片抓取测试脚本
+</title>
+<link href="css/reset.css?v=201206011581" rel="stylesheet" type="text/css" />
+<link href="css/style.css?v=201206011581" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <h1>
+				<a href="http://www.ep78.com/" target="_blank" title="点此进入">
+				<img src="images/ep_logo.jpg" alt="衣品网商品图片抓取测试脚本" title="衣品网商品图片抓取测试脚本" />
+				<br/>衣品网商品图片抓取测试脚本
+				</a>
+			</h1>
+        </div>
+        <div class="con2" id="main">
+            <form id="url_form" method="post" name="url_form" action="get_goods_img.php">
+			<div class="search_area">
+                <input type="text" value="" class="search_text" id="txtSN" name="goods_url" />
+                <input type="submit" value="" class="search_submit" id="btnSN" />
+                <div id="divSearchLoading" class="loading" style="display: none;">
+                </div>
+            </div>
+            <div class="message">
+                <p>
+                    请输入类似这样的url链接进行图片抓取：http://www.ep78.com/product-853.html
+				</p>
+                <div class="tip" align="center">
+                    输入商品详情页的url链接后点击 查询 按钮即可！<br/>下载完成后将自动保存图片到脚本所在的文件夹（带“_s"的图片为焦点图小图，其他为商品描述图）
+                </div>
+            </div>
+            <div class="search_end" id="divSearchPanel">
+            </div>
+			</form>
+        </div>
+    </div>
+</body>
+</html>
