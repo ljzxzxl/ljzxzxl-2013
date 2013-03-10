@@ -46,15 +46,22 @@ $formvars["title"] = "aaa";
 $formvars["content"] = "bbb"; 
 $formvars["status"] = "1"; 
 $formvars["author_id"] = "1"; 
+
+/*测试时请将对应的注释打开，其他注释保留*/
+
+//新增日志
 //$post_url = "http://localhost/jiazhuangxiu/test/yii/yii/demos/blog-rest/index.php/api/posts";
 //echo $arr = createApiCall($post_url,'POST',$header,$formvars);
 
+//删除指定日志
 //$post_url = "http://localhost/jiazhuangxiu/test/yii/yii/demos/blog-rest/index.php/api/posts/11";
 //echo $arr = createApiCall($post_url,'DELETE',$header,$formvars);
 
+//获取所有日志
 //$post_url = "http://localhost/jiazhuangxiu/test/yii/yii/demos/blog-rest/index.php/api/posts";
 //echo $arr = createApiCall($post_url,'GET',$header,$formvars);
 
+//获取指定日志
 $post_url = "http://localhost/jiazhuangxiu/test/yii/yii/demos/blog-rest/index.php/api/posts/10";
 echo $arr = createApiCall($post_url,'GET',$header,$formvars);
 
