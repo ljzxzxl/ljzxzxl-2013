@@ -17,4 +17,10 @@ function guid(){
    }
 }
 echo guid();
+
+$post=Post::model()->find(array(
+    'select'=>'title',
+    'condition'=>'postID=:postID',
+    'params'=>array(':postID'=>10),
+));
 ?>
