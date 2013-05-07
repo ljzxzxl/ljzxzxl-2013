@@ -1,17 +1,26 @@
 <?php
 include "simple_html_dom.php" ;
 // Create DOM from URL or file
-$html = file_get_html('http://www.baidu.com/');
+$html = file_get_html('http://zhuangxiu.jia.com/');
 
 // Find all images 
 foreach($html->find('img') as $element) 
        echo $element->src . '<br>';
 
-// Find all links 
-foreach($html->find('a') as $element) 
+// Find all link 
+foreach($html->find('link') as $element) 
        echo $element->href . '<br>';
 
+// Find all script 
+foreach($html->find('script') as $element) 
+       echo $element->src . '<br>';
+
+
+// Find all links 
+//foreach($html->find('a') as $element) 
+//       echo $element->href . '<br>';
+
 // Find title
-foreach($html->find('title') as $element) 
-       echo $element->title . '<br>';
-exit;
+//foreach($html->find('title') as $element) 
+//       echo $element->title . '<br>';
+//exit;
