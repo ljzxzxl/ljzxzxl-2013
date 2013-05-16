@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>瀑布流demo</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    #wrap {
+        position: relative;
+        zoom: 1;
+        margin: 0px auto;
+    }
+    #wrap li{
+        width: 250px;
+        float: left;
+        list-style: none;
+    }
+    .boxCont {
+        /*position: relative;*/
+        margin: 15px;
+        border: 1px solid #ccc;
+        background: #eee;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <ul id="wrap"></ul>
+</body>
+ 
+<script type="text/javascript">
+ 
+var Waterfall = function(id) {
+    this.elm = document.getElementById(id);
+    this.currentNum = 0;    //当前water总数
+    this.minHeight = 0; //最低列高度
+    this.init();
+};
+ 
+Waterfall.prototype = {
+    init: function() {
+        this.loadWater();
+        var _this = this;
+ 
+        window.onresize = function() {
+            _this.sort();
+        };
+        //滚动到最后加载
+        window.onscroll = function() {
+            var scrollHeight = (document.documentElement.clientHeight || document.body.clientHeight)
+                            + (document.documentElement.scrollTop || document.body.scrollTop);
+            if (_this.minHeight <= scrollHeight) {
+                var _fun = arguments.callee;
+                //模拟延迟500ms加载
+                setTimeout(
+                    function() { 
+                        _this.loadWater();
+                        window.onscroll = _fun;
+                    }, 
+                    500
+                );
+                window.onscroll = null;
+            }
+        };
+    },
+    loadWater: function() {
+        var water = '';
+        var height;
+        for(var i = 0; i < 30; i++) {
+            //随机生成water
+            height = Math.floor(Math.random() * 201 + 200);
+            water += '<li><div class="boxCont" style="height:' + height + 'px;">' + this.currentNum + '</div></li>';
+            this.currentNum++;
+        }
+        this.elm.innerHTML += water;
+        this.sort();
+    },
+    sort: function() {
+        var listH = []; //各列当前高度
+        var box = this.elm.getElementsByTagName("li");
+        var minH = box[0].offsetHeight,
+            boxW = box[0].offsetWidth,
+            boxH,
+            n = document.documentElement.offsetWidth / boxW | 0;  //多少条瀑布
+        this.elm.style.width = n * boxW + "px";
+ 
+        //获取某值v在数组s中的index
+        function getarraykey(s, v) {
+            for(k in s) {
+                if(s[k] == v) {
+                    return k;
+                }
+            }
+        }
+ 
+        for(var i = 0; i < box.length; i++) {
+            boxH = box[i].offsetHeight; //获取每个water的高度
+            if(i < n) { //第一行的water以浮动排列，不需绝对定位
+                listH[i] = boxH;
+                box[i].style.position = '';
+            } 
+            else {
+                minH = Math.min.apply({}, listH); //获取各列高度最低的一列高度
+                minKey = getarraykey(listH, minH);  //获取最低列
+                listH[minKey] += boxH ; //加上新高度后更新高度值
+                box[i].style.position = 'absolute';
+                box[i].style.top = minH + 'px';
+                box[i].style.left = (minKey * boxW) + 'px';
+            }
+        }
+        this.minHeight = minH;
+    }
+};
+ 
+var waterfallDemo = new Waterfall("wrap");
+ 
+</script>
+</html>
