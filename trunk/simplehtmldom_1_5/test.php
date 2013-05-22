@@ -1,7 +1,7 @@
 <?php
 include "simple_html_dom.php" ;
 // Create DOM from URL or file
-$html = file_get_html('http://zhuangxiu.jia.com/');
+$html = str_get_html(file_get_contents('http://zhuangxiu.jia.com/'));
 
 // Find all images 
 foreach($html->find('img') as $element) 
