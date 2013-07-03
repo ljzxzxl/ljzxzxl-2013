@@ -1,0 +1,99 @@
+2013/07/03 17:14:13 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:13 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:13 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:13 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:13 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage
+2013/07/03 17:14:14 [error] [php] Undefined variable: test (D:\xampp\htdocs\yxz\api\protected\controllers\StorageController.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\yxz\api\framework\web\CController.php(286): StorageController->runAction()
+#1 D:\xampp\htdocs\yxz\api\framework\web\CController.php(265): StorageController->runActionWithFilters()
+#2 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(282): StorageController->run()
+#3 D:\xampp\htdocs\yxz\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yxz\api\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\yxz\api\index.php(35): CWebApplication->run()
+REQUEST_URI=/yxz/api/storage123
