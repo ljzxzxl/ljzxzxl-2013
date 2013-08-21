@@ -1,7 +1,7 @@
 <?php
 $mov = file_get_contents("split_hash.txt"); //读取分割文件的信息
 $list = explode("\r\n",$mov);
-$fp = fopen("test1.exe","ab"); //合并后的文件名
+$fp = fopen("zy1.rar","ab"); //合并后的文件名
 foreach($list as $value)
 {
 if(!empty($value)) {
@@ -12,4 +12,5 @@ unset($handle);
 }
 }
 fclose($fp);
+echo "ok";
 ?>
